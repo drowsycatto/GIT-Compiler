@@ -9,7 +9,7 @@ on:
         required: true
       KERNEL_TREE_BRANCH_1:
         description: 'Kernel Tree Branch (SUSFS)'
-        default: 'wip-susfs'
+        default: 'stable-susfs'
         required: false
         type: choice
         options:
@@ -17,7 +17,7 @@ on:
           - wip-susfs
       KERNEL_TREE_BRANCH_2:
         description: 'Kernel Tree Branch (NEXT)'
-        default: 'wip-next'
+        default: 'stable-next'
         required: false
         type: choice
         options:
@@ -25,7 +25,7 @@ on:
           - wip-next
       KERNEL_TREE_BRANCH_3:
         description: 'Kernel Tree Branch (NOKSU)'
-        default: 'wip-noksu'
+        default: 'stable-noksu'
         required: false
         type: choice
         options:
